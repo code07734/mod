@@ -1,3 +1,5 @@
+#include "nctypes.h"
+
 void mod(u64 *x, u64 div){
 	u64 n=*x,c=1,mask,rem,num,coeff;
 	msu32 hbit;
